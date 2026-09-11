@@ -468,6 +468,14 @@
     <h2 class="section-title">7. Leer y guardar datos</h2>
 
     <div class="card">
+  <span class="pkg-title">readr / tidyverse</span>
+  <div class="fname">read_csv()</div>
+  <div class="desc">Versión moderna de <span class="fn">read.csv()</span>, más rápida y con mejor detección automática de tipos de datos. <b>Antes de usarla</b>, hay que cargar el paquete con <code class="inline">library(tidyverse)</code> (o <code class="inline">library(readr)</code>), si no, R no reconocerá la función.</div>
+  <pre><span class="fn">library</span>(<span class="str">"tidyverse"</span>)
+<span class="obj">mi_tabla</span> &lt;- <span class="fn">read_csv</span>(<span class="str">"datos.csv"</span>)</pre>
+</div>
+    
+    <div class="card">
       <span class="pkg-title">R base</span>
       <div class="fname">read.table() / read.csv()</div>
       <div class="desc">Leen un archivo de texto/CSV y lo convierten en data.frame.</div>
@@ -1038,7 +1046,14 @@ mi_funcion(<span class="str">5</span>)  <span class="com"># 10</span></pre>
   <!-- 7. READING/SAVING -->
   <section id="en-leerguardar">
     <h2 class="section-title">7. Reading and saving data</h2>
-
+<div class="card">
+  <span class="pkg-title">readr / tidyverse</span>
+  <div class="fname">read_csv()</div>
+  <div class="desc">Modern version of <span class="fn">read.csv()</span>, faster and with better automatic type detection. <b>Before using it</b>, you need to load the package with <code class="inline">library(tidyverse)</code> (or <code class="inline">library(readr)</code>), otherwise R won't recognize the function.</div>
+  <pre><span class="fn">library</span>(<span class="str">"tidyverse"</span>)
+<span class="obj">my_table</span> &lt;- <span class="fn">read_csv</span>(<span class="str">"data.csv"</span>)</pre>
+</div>
+    
     <div class="card">
       <span class="pkg-title">base R</span>
       <div class="fname">read.table() / read.csv()</div>
